@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner */
+.banner {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('../images/classroom.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2rem;
+    }
+}
+/* Staff Cards */
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+/* Contact Page */
+form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* FAQ Styling */
+.accordion-button {
+    font-weight: bold;
+    background: #f1f1f1;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.accordion-body {
+    background: #fafafa;
+}
